@@ -1,0 +1,132 @@
+#write_box{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+padding-top:180px;
+}
+#write_box .inner{
+border:0px solid yellow;
+width:75%;
+height:auto;
+overflow:hidden;
+}
+#write_box .inner .write_container{
+border:0px solid green;
+width:480px;
+height:auto;
+overflow:hidden;
+padding-top:65px;
+margin:0 auto;
+}
+.write_container .write_1{
+border:0px solid orange;
+width:100%;
+height:100%;
+overflow:hidden;
+}
+.write_1 dd{
+text-align:center;
+}
+.write_1 dd img{
+}
+.write_1 dt{
+font-size:34px;
+font-family: 'nanum-square-r';
+text-align:center;
+color:#4d5152;
+padding-top:22px;
+padding-bottom:33px;
+background:url(../../images/write/line.png) repeat-x bottom;
+}
+#write_box .inner .write_container2{
+border:0px solid red;
+width:100%;
+height:auto;
+margin-top:48px;
+}
+.write_container2 .write_2{
+border:1px solid #535455;
+width:480px;
+margin:0 auto;
+padding-left:35px;
+padding-top:24px;
+padding-bottom:24px;
+margin-bottom:20px;
+}
+.write_2 dd:nth-child(1){
+display:inline;
+}
+.write_2 dt:nth-child(2){
+padding-left:7px;
+display:inline;
+font-size:20px;
+font-family: 'nanum-square-r';
+color:#4d5152;
+}
+.write_2 dd:nth-child(3){
+display:inline;
+font-size:12px;
+font-family: 'nanum-square-r';
+color:#888a8a;
+}
+.write_container2 .write_3{
+border:1px solid #535455;
+width:480px;
+margin:0 auto;
+padding-left:35px;
+padding-top:24px;
+padding-bottom:24px;
+margin-bottom:20px;
+}
+.write_container2 .write_3 img{
+padding-top:3px;
+padding-left:15px;
+}
+.write_3 dd:nth-child(1){
+display:inline;
+
+}
+.write_3 dt:nth-child(2){
+padding-left:22px;
+display:inline;
+font-size:20px;
+font-family: 'nanum-square-r';
+color:#4d5152;
+}
+.write_3 dd:nth-child(3){
+display:inline;
+font-size:12px;
+font-family: 'nanum-square-r';
+color:#888a8a;
+padding-left:40px;
+}
+.write_container2 .write_4{
+border:1px solid #535455;
+width:480px;
+margin:0 auto;
+padding-left:35px;
+padding-top:24px;
+padding-bottom:24px;
+margin-bottom:20px;
+}
+.write_container2 .write_4 img{
+padding-left:10px;
+}
+.write_4 dd:nth-child(1){
+display:inline;
+}
+.write_4 dt:nth-child(2){
+padding-left:17px;
+display:inline;
+font-size:20px;
+font-family: 'nanum-square-r';
+color:#4d5152;
+}
+.write_4 dd:nth-child(3){
+display:inline;
+font-size:12px;
+font-family: 'nanum-square-r';
+color:#888a8a;
+padding-left:3px;
+}

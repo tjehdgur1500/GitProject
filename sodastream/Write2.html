@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SodaStream:Write</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<link rel="shortcut icon" href="./images/icon/favicon.png">
+<!--ScrollFade-->
+<link rel="stylesheet" href="./js/Scroll/scrollanim.min.css">
+<!--Jquery 3.2.1 in-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--[if IE]-->
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js">
+    </script>
+</head>
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(function () {
+		$('#S_homeup').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 1500);
+			return false;
+		});
+		});
+	});
+</script>
+<main>
+<header><!--헤더-->
+    <div class="outer"><!--outer--(1820px)-->
+    <div class="inner"><!--inner(1400px)-->
+     <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="overlay-content">
+   <div class="icon">
+   <dl class="bag">
+   <dt>담기</dt>
+   <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/bag.png" /></a>
+   </dl>
+   <dl class="write">
+   <dt>회원가입</dt>
+   <a href="./Write1.html"><img src="./images/common/write.png" /></a>
+    </dl>
+    <dl class="login">
+  <dt>로그인</dt>
+   <a href="./Login.html"><img src="./images/common/login.png" /></a>
+   </dl>
+   </div>
+   <div class="nav">
+    <a href="./BrandStory.html">Brand Story</a>
+    <a href="./Shop.html">Soda Shop</a>
+    <a href="./Event.html">Soda Event</a>
+    <a href="./Community.html">Community</a>
+    <a href="./Maps.html">Location</a>
+    <a href="./Contact.html">Contact Us</a>
+    <a href="./Login.html">주문/배송확인</a>
+    </div>
+  </div>
+</div>
+    <h1 class="pc">
+    <a href="./index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+    </h1>
+    <h1 class="t">
+    <a href="./index.html"><img src="./images/common/logo_t.png" alt="로고" /></a>
+    </h1>
+    <h1 class="m">
+    <a href="./index.html"><img src="./images/common/logo_m.png" alt="로고" /></a>
+    </h1>
+    <div class="member">
+    <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/member.png" alt="멤버" /></a>
+    </div>
+        <div class="soda"><strong>소다스트림 회원혜택</strong></div>
+        <a class="qnb" onclick="openNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+</script>         
+    </div><!--//inner-->
+    </div><!--//outer-->
+</header><!--//헤더 종료-->
+<form id="write_table">
+    <div class="inner">
+        <div class="top_write">
+            <dl class="top_write1_1">
+                <dd>약관동의</dd>
+            </dl>
+             <dl class="top_write1_2">
+                <dd>회원정보 입력</dd>
+            </dl>
+             <dl class="top_write1_3">
+                <dd>가입완료</dd>
+            </dl>
+        </div>
+        <h3>소다스트리머가 되기 위한 정보를 입력해주세요</h3>
+        <div class="form_container">
+           <dl class="yourname">
+            <dd>이름<span>*</span></dd>
+            <input type="text" class="myname">
+            </dl>
+             <dl class="yourid">
+            <dd>아이디<span>*</span></dd>
+            <input type="text" class="myid">
+            </dl>
+            <dl class="yourpw">
+            <dd>비밀번호<span>*</span></dd>
+            <input type="password" class="mypw">
+            <dt> * 영문 대소문자/숫자/특수문자를 혼용하여 2종류 10~16자 또는 3종류 8~16자</dt>
+            </dl>
+            <dl class="your_repeat">
+            <dd>비밀번호 확인<span>*</span></dd>
+            <input type="password" class="my_repeat">
+            </dl>
+               <dl class="yourold">
+            <dd>생년월일<span>*</span></dd>
+            <input type="text" class="myold">
+            </dl>
+              <dl class="yourold2">
+            <dd>생년월일<span>*</span></dd>
+            <dd>남</dd><input type="checkbox" id="myold2">
+            <label for="myold2"></label> 
+            <input type="checkbox" id="myold3">
+            <label for="myold3"></label>       
+             <dd>여</dd>
+            </dl>
+             <dl class="yournum">
+            <dd>연락처<span>*</span></dd>
+            <input type="text" class="mynum">
+            </dl>
+            <dl class="yourpost">
+            <dd>주소<span>*</span></dd>
+            <input type="text" class="mypost">
+            <dd class="postb"><a href="javascript:void(0)">우편번호 검색</a></dd>
+            </dl>
+            <dl class="yourpost2">
+            <input type="text" class="mypost2">
+            <input type="text" class="mypost2">
+            </dl>
+        </div>
+        <div class="bottom_write">
+            <input type="button" value="회원가입" onclick="alert('입력하지 않은 정보를 확인해주세요.');" class="write_a">
+            <a href="./index.html"><input type="button" value="취소" class="write_b"></a>
+        </div>
+    </div>
+</form>
+<footer>
+   <div class="inner"><!--inner(1400px)-->
+    <h4><a href="./index.html"><img src="./images/common/logoF.png" alt="하단로고" /></a></h4>
+    <ul>
+        <li><a href="./BrandStory.html">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">사업자정보확인</a></li>
+    </ul>
+    <address>경기도 성남시 분당구 판교역로 230 삼환하이펙스 B동 507-1호 </address>
+    <p>Copyright(c) SMILEMORNING co., Ltd. All rights Reserved</p>
+    </div><!--//inner-->
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SodaStream </title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<link rel="shortcut icon" href="./images/icon/favicon.png">
+<!-- GRT Youtube Plugin CSS -->
+<link rel="stylesheet" href="./js/Popup/grt-youtube-popup.css">
+<!--hover-->
+    <script type="text/javascript" src="./js/hover/snap.svg-min.js"></script>
+<!-- Link Slide-->
+	<link rel="stylesheet" type="text/css" href="./css/Main/normalize.css" />
+<!--ScrollFade-->
+<link rel="stylesheet" href="./js/Scroll/scrollanim.min.css">
+<!--MoviePopup-->
+<link rel="stylesheet" href="./js/Popup/grt-youtube-popup.css">
+<!--Jquery 3.2.1 in-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--[if IE]-->
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+	$(function () {
+		$('#homeup').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 1500);
+			return false;
+		});
+		});
+	});
+</script>
+<main>
+<header><!--헤더-->
+    <div class="outer"><!--outer--(1820px)-->
+    <div class="inner"><!--inner(1400px)-->
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="overlay-content">
+   <div class="icon">
+   <dl class="bag">
+   <dt>담기</dt>
+   <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/bag.png" /></a>
+   </dl>
+   <dl class="write">
+   <dt>회원가입</dt>
+   <a href="./Write1.html"><img src="./images/common/write.png" /></a>
+    </dl>
+    <dl class="login">
+  <dt>로그인</dt>
+   <a href="./Login.html"><img src="./images/common/login.png" /></a>
+   </dl>
+   </div>
+   <div class="nav">
+    <a href="./BrandStory.html">Brand Story</a>
+    <a href="./Shop.html">Soda Shop</a>
+    <a href="./Event.html">Soda Event</a>
+    <a href="./Community.html">Community</a>
+    <a href="./Maps.html">Location</a>
+    <a href="./Contact.html">Contact Us</a>
+    <a href="./Login.html">주문/배송확인</a>
+    </div>
+  </div>
+</div>
+    <h1 class="pc">
+    <a href="./index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+    </h1>
+    <h1 class="t">
+    <a href="./index.html"><img src="./images/common/logo_t.png" alt="로고" /></a>
+    </h1>
+    <h1 class="m">
+    <a href="./index.html"><img src="./images/common/logo_m.png" alt="로고" /></a>
+    </h1>
+    <div class="member">
+    <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/member.png" alt="멤버" /></a>
+    </div>
+        <div class="soda"><strong>소다스트림 회원혜택</strong></div>
+    <a class="qnb" onclick="openNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+</script>       
+    </div><!--//inner-->
+    </div><!--//outer-->
+</header><!--//헤더 종료-->
+<section id="visual">
+ <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg1">
+          <dl class="bg1_text">
+            <dd><img src="./images/main/simbol.png"/></dd>
+            <dt>SAVE THE ENVIROMENT!</dt>
+            <dd><a href="./BrandStory.html">VIEW STORY</a></dd>
+          </dl>
+      </div>
+      <div class="swiper-slide bg2">
+        <dl class="bg2_text">
+            <dd>한잔당 60원 믿을 수 있는 탄산수</dd>
+            <dt>NATURAL FRESHNESS</dt>
+        </dl>
+      </div>
+      <div class="swiper-slide bg3">
+        <dl class="bg3_text">
+            <dd>SPARKLING LIFE IN</dd>
+            <dt>SodaStream Color</dt>
+        </dl>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./js/Swiper/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        disableOnInteraction:'true',
+        clickable:'true'
+      },
+        effect:'fade',
+        speed:1500,
+        autoplay:{
+         delay:1500
+        }
+    });
+  </script>
+</section>
+<section id="box1">
+       <div class="inner">
+    	<div class="container"><!--hover-->
+			<section id="grid" class="grid clearfix">
+				<a href="./Shop.html" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="./images/main/bg02.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>가을스폐셜 패키지</h2>
+							<p>Join The Revolution</p>
+							<button><img src="./images/main/w_arrow.png"/></button>
+						</figcaption>
+					</figure>
+				</a>
+            </section>
+		</div><!-- /container -->
+		</div>
+		<script>
+			(function() {
+	
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
+		</script><!--//hover-->
+</section>
+<section id="box2">
+    <div class="inner">
+    <div class="container">
+			<div class="deco deco--title">Soda With Best</div>
+			<div id="slideshow" class="slideshow">
+				<div class="slide">
+					<h2 class="slide__title slide__title--preview">스피릿 탄산수메이커  <span class="slide__price">178,000\</span></h2>
+					<div class="slide__item">
+						<div class="slide__inner">
+							<img class="slide__img slide__img--small" src="./images/main/best1.png" alt="Some image" />
+							<button class="action action--open" aria-label="View details"><img src="./images/icon/add.png"/><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="slide__content">
+						<div class="slide__content-scroller">
+							<img class="slide__img slide__img--large" src="./images/main/best1.png" alt="Some image" />
+							<div class="slide__details">
+								<h2 class="slide__title slide__title--main">SPIRIT</h2>
+								<p class="slide__description">스피릿 탄산수 메이커</p>
+								<div>
+									<span class="slide__price slide__price--large">매끄러운 유선형 바디의 감각적인 
+디자인</span>
+                                    <button class="button button--buy"><a href="./Shop.html">More</a></button>
+								</div>
+							</div><!-- /slide__details -->
+						</div><!-- slide__content-scroller -->
+					</div><!-- slide__content -->
+				</div>
+				<div class="slide">
+					<h2 class="slide__title slide__title--preview">엘더플라워 <span class="slide__price">20,000\</span></h2>
+					<div class="slide__item">
+						<div class="slide__inner">
+							<img class="slide__img slide__img--small" src="./images/main/best2.png" alt="Some image" />
+							<button class="action action--open" aria-label="View details"><img src="./images/icon/add.png"/><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="slide__content">
+						<div class="slide__content-scroller">
+							<img class="slide__img slide__img--large" src="./images/main/best2.png" alt="Some image" />
+							<div class="slide__details">
+								<h2 class="slide__title slide__title--main">ELDER FLOWER</h2>
+								<p class="slide__description">엘더플라워</p>
+								<div>
+									<span class="slide__price slide__price--large">하늘에서 내려온 선물로 불리는 맛</span>
+									<button class="button button--buy"><a href="./Shop.html">More</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<h2 class="slide__title slide__title--preview">제네시스 탄산수메이커V2 <span class="slide__price">128,000\</span></h2>
+					<div class="slide__item">
+						<div class="slide__inner">
+							<img class="slide__img slide__img--small" src="./images/main/best3.png" alt="Some image" />
+							<button class="action action--open" aria-label="View details"><img src="./images/icon/add.png"/><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="slide__content">
+						<div class="slide__content-scroller">
+							<img class="slide__img slide__img--large" src="./images/main/best3.png" alt="Some image" />
+							<div class="slide__details">
+								<h2 class="slide__title slide__title--main">GENESIS V2</h2>
+								<p class="slide__description">제네시스 탄산수메이커V2</p>
+								<div>
+									<span class="slide__price slide__price--large">현대적 모던함을 주방에 입히다</span>
+									<button class="button button--buy"><a href="./Shop.html">More</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="action action--close" aria-label="Close"><i class="fa fa-close"></i></button>
+			</div>
+		</div><!-- /container -->
+		<script src="./js/Slide/classie.js"></script>
+		<script src="./js/Slide/dynamics.min.js"></script>
+		<script src="./js/./Slide/main.js"></script>
+		<script>
+			(function() {
+				document.documentElement.className = 'js';
+				var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
+			})();
+		</script>
+    </div>
+</section>
+<section id="box3">
+    <div class="inner">
+        <div class="contents1">
+           <dl class="container1-1">
+                <dt data-kui-anim="fadeIn">SPARKLING MAKER</dt>
+                <dd>탄산수 제조기</dd>
+                <dd>색다른 활기를 불어넣어줄 스파클링 메이커</dd>
+            </dl>
+            <dl class="container1">
+                <a href="./Shop.html"><dd data-kui-anim="fadeIn"><img src="./images/main/ct1-1.png" /></dd>
+                </a>
+                <a href="./Shop.html"><dt data-kui-anim="fadeIn">
+                <img src="./images/main/ct1_m.png" />
+                </dt></a>
+            </dl>
+        </div>
+        <div class="contents2">
+               <dl class="container2-1">
+                <dt data-kui-anim="fadeIn">NATURAL CYLINDER</dt>
+                <dd>실린더</dd>
+                <dd>독일 암반층에서 추출한 천연 탄산가스</dd>
+            </dl>     
+            <dl class="container2">
+                <a href="./Shop.html"><dd data-kui-anim="fadeInRight"><img src="./images/main/ct2-1.png" /></dd></a>
+                <a href="./Shop.html"><dt data-kui-anim="fadeIn">
+                <img src="./images/main/ct2_m.png" />
+                </dt></a>
+            </dl>
+        </div>
+         <div class="contents3">
+             <dl class="container3-1">
+                <dt data-kui-anim="fadeIn">HEALTH DRINK</dt>
+                <dd>에이드 믹스</dd>
+                <dd>건강과 자연을 담아 톡 쏘다</dd>
+            </dl>     
+            <dl class="container3">
+                <a href="./Shop.html"><dd data-kui-anim="fadeInLeft"><img src="./images/main/ct3-1.png" /></dd></a>
+                   <a href="./Shop.html"><dt data-kui-anim="fadeIn">
+                <img src="./images/main/ct3_m.png" />
+                </dt></a>
+            </dl>
+        </div>
+        <div class="contents4">
+              <dl class="container4-1">
+                <dt data-kui-anim="fadeIn">SIMPLE BOTTLE</dt>
+                <dd>악세서리</dd>
+                <dd>친환경을 담아낸 아름다운 디자인</dd>
+            </dl>     
+            <dl class="container4">
+                <a href="./Shop.html"><dd data-kui-anim="fadeIn"><img src="./images/main/ct4-1.png" /></dd></a>
+                   <a href="./Shop.html"><dt data-kui-anim="fadeIn">
+                <img src="./images/main/ct4_m.png" />
+                </dt></a>
+            </dl>
+        </div>
+    </div>
+<script src='./js/Scroll/scrollanim.js'></script>
+</section>
+<section id="box4">
+<div class="outer"><!--Outer-->
+<div class="container">
+			<div class="content">
+				<div class="grid">
+					<figure class="effect-ruby">		
+					</figure>
+				</div>
+            </div>
+            <dl class="content2">
+            <dt  data-kui-anim="fadeInUp">HOW</dt> 
+            <dt data-kui-anim="fadeInUp">TO USE</dt>
+            <dd data-kui-anim="fadeIn">더욱 맛있게 탄산수를<br>즐기는 당신을 위해 준비한<br>효과적인 탄산수 메이커 사용법을 알려드립니다.</dd>   
+                <dd><a href= "./Community.html">VIEW DETAILE</a></dd>
+            </dl>
+    </div><!-- /container -->
+    <div class="container2">
+          	<div class="content2-1">
+				<div class="grid">
+					<figure class="effect-ruby2">		
+					</figure>
+				</div>
+            </div>
+           <dl class="content2">
+            <dt data-kui-anim="fadeInUp">RAIN</dt> 
+            <dt data-kui-anim="fadeInUp">MAKER</dt>
+            <dd data-kui-anim="fadeIn">매년 한 가구에서 버려지는 3,000개의 플라스틱병을<br>재활용이 가능한 소다스트림 전용병을 사용하는<br>우리는 레인메이커입니다.</dd>   
+                <dd><a class="youtube-link" youtubeid="TSWrQUD5Qtw">MORE MOVIE</a></dd>
+                	<!-- GRT Youtube Popup -->
+		<script src="./js/Popup/grt-youtube-popup.js"></script>
+
+		<!-- Initialize GRT Youtube Popup plugin -->
+		<script>
+			// Demo video 1
+			$(".youtube-link").grtyoutube({
+				autoPlay:true,
+				theme: "dark"
+			});
+        </script>
+            </dl>
+    </div><!-- /container -->
+</div><!--//Outer(1820px)-->
+<script src='./js/Scroll/scrollanim.js'></script>
+</section>
+<section id="box5">
+    <div class="card_bg">
+       <h4>언제 어디서나</h4>
+       <h3>플레이 소다스트림</h3>
+       <div class="inner"><!--inner(1400px)-->
+        <div class="card_box">
+            <dl data-kui-anim="fadeInDown" class="card">
+                <dt>SODA EVENT</dt>
+                <dd>소다스트림에서 진행하는<br>다양한 이벤트를 확인하세요</dd>
+                <dd class="img1"><a href="./Event.html"><img src="./images/main/more01.png" /></a></dd>
+            </dl>
+            <dl data-kui-anim="fadeInDown" class="card2">
+                <dt>COMMUNITY</dt>
+                <dd>소다스트림을 즐기는 방법<br>레시피와 리뷰 새소식을 확인하세요</dd>
+                <dd class="img1"><a href="./Community.html"><img src="./images/main/more02.png" /></a></dd>
+            </dl>
+            <dl data-kui-anim="fadeInDown"  class="card3">
+                <dt>LOCATION</dt>
+                <dd>소다스트림의 매장위치를<br>미리 확인하고 찾아가세요</dd>
+                <dd class="img1"><a href="./Maps.html"><img src="./images/main/more03.png" /></a></dd>
+            </dl>
+        </div>
+        <p id="homeup">
+            <a href="javascript:void(0)"><img src="./images/common/up.png" /></a>
+        </p>
+        </div><!--//inner(1400px)-->
+    </div>
+    <script src='./js/Scroll/scrollanim.js'></script>
+</section>
+<footer>
+   <div class="inner"><!--inner(1400px)-->
+    <h4><a href="./index.html"><img src="./images/common/logoF.png" alt="하단로고" /></a></h4>
+    <ul>
+        <li><a href="./BrandStory.html">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">사업자정보확인</a></li>
+    </ul>
+    <address>경기도 성남시 분당구 판교역로 230 삼환하이펙스 B동 507-1호 </address>
+    <p>Copyright(c) SMILEMORNING co., Ltd. All rights Reserved</p>
+    </div><!--//inner-->
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SodaStream:Shop</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<link rel="shortcut icon" href="./images/icon/favicon.png">
+<!--ScrollFade-->
+<link rel="stylesheet" href="./js/Scroll/scrollanim.min.css">
+<!--Jquery 3.2.1 in-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--[if IE]-->
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js">
+    </script>
+</head>
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(function () {
+		$('#S_homeup').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 1500);
+			return false;
+		});
+		});
+	});
+</script>
+<main>
+<header><!--헤더-->
+    <div class="outer"><!--outer--(1820px)-->
+    <div class="inner"><!--inner(1400px)-->
+     <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="overlay-content">
+   <div class="icon">
+   <dl class="bag">
+   <dt>담기</dt>
+   <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/bag.png" /></a>
+   </dl>
+   <dl class="write">
+   <dt>회원가입</dt>
+   <a href="./Write1.html"><img src="./images/common/write.png" /></a>
+    </dl>
+    <dl class="login">
+  <dt>로그인</dt>
+   <a href="./Login.html"><img src="./images/common/login.png" /></a>
+   </dl>
+   </div>
+   <div class="nav">
+    <a href="./BrandStory.html">Brand Story</a>
+    <a href="./Shop.html">Soda Shop</a>
+    <a href="./Event.html">Soda Event</a>
+    <a href="./Community.html">Community</a>
+    <a href="./Maps.html">Location</a>
+    <a href="./Contact.html">Contact Us</a>
+    <a href="./Login.html">주문/배송확인</a>
+    </div>
+  </div>
+</div>
+    <h1 class="pc">
+    <a href="./index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+    </h1>
+    <h1 class="t">
+    <a href="./index.html"><img src="./images/common/logo_t.png" alt="로고" /></a>
+    </h1>
+    <h1 class="m">
+    <a href="./index.html"><img src="./images/common/logo_m.png" alt="로고" /></a>
+    </h1>
+    <div class="member">
+    <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/member.png" alt="멤버" /></a>
+    </div>
+        <div class="soda"><strong>소다스트림 회원혜택</strong></div>
+        <a class="qnb" onclick="openNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+</script>         
+    </div><!--//inner-->
+    </div><!--//outer-->
+</header><!--//헤더 종료-->
+<section id="p_visual">
+    <div class="inner"><!--inner(1400px)-->
+    <div class="v_box"><!--v_box-->
+    <div class="v_box_text"><!--v_box2-->
+    <dl class="v_text">
+        <dt>탄산수에 자연과<br>청량함을 담다</dt>
+        <dt>자연과 청량함을 담다</dt>
+    </dl>
+    </div><!--//v_box2-->
+    <div class="v_box_img">
+        <dl data-kui-anim="fadeInUp"  class="v_img">
+            <img src="./images/shop/v_item.png" />
+        </dl>
+    </div>
+    </div><!--//v_box-->
+    </div><!--//inner(1400px)-->
+  <script src='./js/Scroll/scrollanim.js'></script>
+</section>
+<section id="p_box01">
+<div class="outer"><!--outer(1820px)-->
+<div class="inner"><!--inner(1400px)-->
+<div class="product">
+<h4>Soda Shop</h4>
+<h3>소다스트림 제품</h3>
+<!-- Select Tab-->
+	<div id="tabs" class="tabs">
+				<nav>
+					<ul>
+						<li><a href="#section-1" >
+                            <dd>Sparkling Maker</dd>
+                            <dt>탄산수 제조기</dt>
+                            <img src="./images/shop/p_item1.png" /></a></li>
+						<li><a href="#section-2">
+                            <dd>Natural Cylinder</dd>
+                            <dt>실린더</dt>
+                            <img src="./images/shop/p_item2.png" /></a></li>
+                        <li><a href="#section-3">
+                            <dd>Health Drink</dd>
+                            <dt>에이드 믹스</dt>
+                            <img src="./images/shop/p_item3.png" /></a></li>
+                        <li><a href="#section-4">
+                            <dd>Simple Bottle</dd>
+                            <dt>악세서리</dt>
+                            <img src="./images/shop/p_item4.png" /></a></li>
+					</ul>
+				</nav>
+				<div class="content">
+					<section id="section-1">
+						<div class="mediabox">
+							<dd data-kui-anim="fadeInDown" >Sparling Maker</dd>
+							<dt data-kui-anim="fadeIn" > 탄산수 제조기</dt>
+                            <dd>순수한 물에대한 집념<br>프리미엄 탄산수 제조</dd>
+                            <dd>Soda Maker</dd>
+						</div>
+						<div data-kui-anim="fadeInRight" class="mediabox2">
+							<img src="./images/shop/p_box_item1.png"
+							 alt="img01" />
+						</div>
+						<div class="outer">
+				        <h4>Autumn Package</h4>
+						<h3>가을 패키지</h3>
+						<div class="list1">
+						 <dd><a href="#like"><img src="./images/shop/pack1.png" /></a></dd>
+						 <p><img src="./images/shop/pack1_color.png" /></p>
+						 <dl class="list_text">
+				        <dd>스피릿 탄산수 메이커 패키지</dd>
+				        <dt>SPIRIT PACK</dt>
+				        <dd>188,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" ></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+                        <div class="list2">
+						 <dd><a href="#like"><img src="./images/shop/pack2.png" /></a></dd>
+						 <p><img src="./images/shop/pack2_color.png" /></p>
+						 <dl class="list_text">
+				        <dd>소스 탄산수메이커 V3 패키지</dd>
+				        <dt>SOURCE V3 PACK</dt>
+				        <dd>218,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						    <div class="list3">
+						 <dd><a href="#like"><img src="./images/shop/pack3.png" /></a></dd>
+						 <p><img src="./images/shop/pack3_color.png" /></p>
+						 <dl class="list_text">
+				        <dd>파워 탄산수메이커  패키지</dd>
+				        <dt>POWER PACK</dt>
+				        <dd>358,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						    <div class="list4">
+						 <dd><a href="#like"><img src="./images/shop/pack4.png" /></a></dd>
+						 <p><img src="./images/shop/pack4_color.png" /></p>
+						 <dl class="list_text">
+				        <dd>제네시스 탄산수메이커 V2 패키지</dd>
+				        <dt>GNESIS V2 PACK</dt>
+				        <dd>138,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						</div><!--outer-->
+						<div class="outer2">
+						    <h4>Sparkling Maker</h4>
+						    <h3>탄산수 제조기</h3>
+                        <div class="list1_1">
+						 <dd><a href="#like"><img src="./images/shop/spar1.png" /></a></dd>
+						 <p><img src="./images/shop/spar1_bg.png" /></p>
+						 <dl class="list_text">
+				        <dd>스피릿 탄산수메이커</dd>
+				        <dt>SPIRIT</dt>
+				        <dd>178,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+                         <div class="list2_1">
+						 <dd><a href="#like"><img src="./images/shop/spar2.png" /></a></dd>
+						 <p><img src="./images/shop/spar1_bg.png" /></p>
+						 <dl class="list_text">
+				        <dd>소스 탄산수메이커V3</dd>
+				        <dt>SOURCE V3</dt>
+				        <dd>208,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						      <div class="list3_1">
+						 <dd><a href="#like"><img src="./images/shop/spar3.png" /></a></dd>
+						 <p><img src="./images/shop/spar3_bg.png" /></p>
+						 <dl class="list_text">
+				        <dd>파워 탄산수메이커</dd>
+				        <dt>POWER</dt>
+				        <dd>348,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						    <div class="list4_1">
+						 <dd><a href="#like"><img src="./images/shop/spar4.png" /></a></dd>
+						 <p><img src="./images/shop/spar4_bg.png" /></p>
+						 <dl class="list_text">
+				        <dd>제네시스 탄산수메이커V2</dd>
+				        <dt>GENESIS V2</dt>
+				        <dd>128,000</dd>
+						 </dl>
+						  <div class="list_icon">
+						  <div class="bag">
+						  <dt><a href="#like"><img src="./images/shop/bag.png" /></a></dt>
+						  <dd>담기</dd>
+                            </div>
+                            <div class="like">
+						  <dt><a href="#like"><img src="./images/shop/like.png" /></a></dt>
+						  <dd>위시리스트</dd>
+                            </div>
+						  </div>
+						</div>
+						</div><!--outer2-->
+					</section>
+					<section id="section-2">
+						<div class="mediabox">
+							<dd data-kui-anim="fadeInDown" >Natural Cylinder</dd>
+							<dt data-kui-anim="fadeIn" > 실린더</dt>
+							<dd>초고밀도 부드러운 탄산수<br>프리미엄 천연 탄산가스</dd>
+                            <dd>Natural Cylinder</dd>
+						</div>
+						<div data-kui-anim="fadeInRight"  class="mediabox3">
+							<img src="./images/shop/p_box_item2.png" alt="img02" />
+						</div>
+					</section>
+                    	<section id="section-3">
+						<div class="mediabox">
+							<dd data-kui-anim="fadeInDown" >Health Drink</dd>
+							<dt data-kui-anim="fadeIn" > 에이드 믹스</dt>
+							<dd>부드러운 달콤함과 매력적인 향이<br>탄산에 빠지다</dd>
+							<dd>Sparkling Ade</dd>
+						</div>
+							<div data-kui-anim="fadeInRight"  class="mediabox4">
+							<img src="./images/shop/p_box_item3.png" alt="img03" />
+						    </div>
+					</section>
+                    	<section id="section-4">
+						<div class="mediabox">
+                            <dd data-kui-anim="fadeInDown" >Simple Bottle</dd>
+							<dt data-kui-anim="fadeIn" > 악세서리</dt>
+							<dd>내구성을 생각한 디자인<br>견고하고 안전한 전용병</dd>
+							<dd>Simple Bottle</dd>
+						</div>
+						<div data-kui-anim="fadeInRight"  class="mediabox5">
+							<img src="./images/shop/p_box_item4.png" alt="img04" />
+						</div>
+						  <script src='./js/Scroll/scrollanim.js'></script>
+					</section>
+				</div><!-- /content -->
+			</div><!-- /tabs -->
+<script src="./js/Tab/cbpFWTabs.js"></script>
+		<script>
+			new CBPFWTabs( document.getElementById( 'tabs' ) );
+		</script>
+<!--//Select Tab-->
+</div>
+</div><!--//inner(1400px)-->
+</div><!--//outer(1820px)-->
+  <script src='./js/Scroll/scrollanim.js'></script>
+</section>
+<section id="p_box2">
+<div class="inner"><!--inner-->
+<h3>Store location</h3>
+<form class="search_box">
+<input type="text" name="search" value="매장명 입력">
+</form>
+<p id="S_homeup"><a href="#"><img src="./images/common/up.png" /></a></p>
+</div><!--//inner-->
+</section>
+<footer>
+   <div class="inner"><!--inner(1400px)-->
+    <h4><a href="./index.html"><img src="./images/common/logoF.png" alt="하단로고" /></a></h4>
+    <ul>
+        <li><a href="./BrandStory.html">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">사업자정보확인</a></li>
+    </ul>
+    <address>경기도 성남시 분당구 판교역로 230 삼환하이펙스 B동 507-1호 </address>
+    <p>Copyright(c) SMILEMORNING co., Ltd. All rights Reserved</p>
+    </div><!--//inner-->
+</footer>
+</main>
+</body>
+</html>

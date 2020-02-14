@@ -1,0 +1,133 @@
+#l_visual{
+border:0px solid red;
+width:100%;
+height:100%;
+background:url(../../images/Login/bg.png) no-repeat center 180px;
+background-size:cover;
+}
+#l_visual .inner{
+border:0px solid blue;
+width:75%;
+height:100%;
+}
+#l_visual form{
+border:0px solid red;
+width:568px;
+height:498px;
+top:15px;
+margin-left:29%;
+background:rgba(18,180,240,0.7);
+padding:60px 106px;
+position:relative;
+}
+#l_visual form h3{
+font-size:40px;
+font-family: 'notokr-regular';
+color:#fff;
+text-align:center;
+margin-bottom:20px;
+}
+#l_visual form input[type="text"]{
+border:none;
+width:362px;
+font-size:20px;
+font-family: 'notokr-light';
+color:#858788;
+padding:15px 20px;
+margin-bottom:30px;
+}
+#l_visual form input[type="password"]{
+border:none;
+width:362px;
+font-size:20px;
+font-family: 'notokr-light';
+color:#858788;
+padding:15px 20px;
+margin-bottom:0px;
+}
+ form input[id="cb"] + label {
+display: inline-block;
+width: 30px;
+height: 30px;
+border: 2px solid #fff;
+cursor: pointer;
+margin-top:20px;
+}
+form input[id="cb"]:checked + label {
+background-color: #2b657d;
+}
+input[id="cb"] {
+display: none;
+}
+form h5{
+border:0px solid red;
+display:inline-block;
+position:relative;
+bottom:8px;
+padding-left:12px;
+font-size:15px;
+font-family: 'notokr-light';
+color:#fff;
+}
+form h5 a:last-child{
+ border:0px solid red;
+display:inline-block;
+position:relative;
+bottom:-0px;
+padding-left:50px;
+font-size:15px;
+font-family: 'notokr-light';
+color:#fff;   
+}
+form input[type="button"]{
+border:0;
+outline:none;
+width:362px;
+border-radius:50px;
+background-color:#fff;
+margin-top:20px;
+font-size:23px;
+font-family: 'notokr-bold';
+color:#44c4f3;
+}
+form .naver{
+border:0;
+outline:none;
+width:30%;
+height:43px;
+border-radius:0px;
+background-color:#fff;
+margin-top:20px;
+margin-right:3%;
+}
+form .naver img{
+padding-top:2px;
+}
+form .naver:last-child{
+margin-right:0;
+}
+.inner .ball{
+border:0px solid red;
+width:10%;
+height:auto;
+overflow:hidden;
+position:relative;
+top:295px;
+left:18%;
+display:block;
+}
+.ball .balls{
+width:100%;
+height:auto;
+overflow:hidden;
+}
+.ball .balls dd{
+padding-bottom:12px;
+text-align:center;
+}
+.ball .balls dt{
+font-size:17px;
+font-family: 'notokr-regular';
+color:#fff;
+text-align:center;
+}

@@ -1,0 +1,968 @@
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:150px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:500px;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	background: #12b4f0;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 3.3vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:50px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:2.5vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:0;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 50%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+a, button {
+	outline: none;
+}
+
+a:hover, a:focus {
+	
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+ 
+.clearfix:after {
+	clear: both;
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:75%;
+height:auto;
+overflow:hidden;
+border:00px solid blue;
+}
+@media all and (min-width:1441px) and (max-width:1660px){
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:120px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:100%;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	background: #12b4f0;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 3.3vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:50px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:2.5vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:0;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 55%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:80%;
+height:auto;
+overflow:hidden;
+border:0px solid blue;
+}
+}
+@media all and (min-width:1280px) and (max-width:1440px){
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:100px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:100%;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	background: #12b4f0;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 3.3vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:50px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:2.5vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:0;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 55%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:95%;
+height:auto;
+overflow:hidden;
+border:0px solid blue;
+}
+}
+@media all and (min-width:600px) and (max-width:1279px) and (orientation:portrait){
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:80px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:100%;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	background: #12b4f0;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top:0;
+	z-index: 11;
+	padding:0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    border:0px solid red;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 5vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:20px;
+    position:relative;
+    top:-20px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:3vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+    position:relative;
+    top:-30px;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:0;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 55%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:95%;
+height:auto;
+overflow:hidden;
+border:0px solid blue;
+}
+}
+@media all and (min-width:600px) and (max-width:1279px) and (orientation:landscape){
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:80px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:100%;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	background: #12b4f0;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top:0;
+	z-index: 11;
+	padding:0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    border:0px solid red;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 5vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:20px;
+    position:relative;
+    top:-20px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:3vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+    position:relative;
+    top:-30px;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:0;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 55%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:95%;
+height:auto;
+overflow:hidden;
+border:0px solid blue;
+}
+}
+@media all and (max-width:599px){
+/* Common style */
+.grid {
+	width: 100%;
+    height:auto;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:40px;
+}
+
+.grid a {
+	float: right;
+	width:100%;
+    height:100%;
+    overflow:hidden;
+    border:0px solid blue;
+}
+
+.grid a:nth-child(odd) {
+	margin: 0px 0 0px 0;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+    width:100%;
+    height:40vh;
+    opacity:1;
+    background:url(../../images/main/bg02.png) no-repeat center top;
+    background-size:cover;
+}
+.grid figure:hover{
+opacity:0.8;
+-webkit-transition:opacity 0.4s;
+transition:opacity 0.4s;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 0%;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top:0;
+	z-index: 11;
+	padding:0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    border:0px solid red;
+}
+
+.grid figcaption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-size: 8vw;
+    font-family: 'nanum-square-b';
+    color:#12b4f0;
+    padding-bottom:20px;
+    position:relative;
+    top:0px;
+}
+
+.grid figcaption p {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+    font-size:5vw;
+    font-family: 'nanum-square-b';
+	color: #3b4143;
+    position:relative;
+    top:0px;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 50vh;
+}
+
+.grid svg path {
+	fill: #fcfcfc;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+    opacity:1;
+    transition:0.5s;
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+     transition:0.5s;
+}
+
+/* Individual styles */
+.grid figure button {
+	top: 55%;
+	left: 50%;
+	background: transparent;
+	opacity: 0;
+    width:120px;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+
+.grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+#box1{
+border:0px solid red;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#box1 .inner{
+width:95%;
+height:auto;
+overflow:hidden;
+border:0px solid blue;
+}
+}

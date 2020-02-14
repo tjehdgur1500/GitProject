@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>GRT Youtube Popup - jQuery Plugin</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Demo CSS file not needed for the plugin -->
+		
+
+		<!-- GRT Youtube Plugin CSS -->
+		<link rel="stylesheet" href="grt-youtube-popup.css">
+
+	</head>
+	<body>
+		<div class="demo-page-container">
+			<!-- Github Button -->
+
+
+
+			<h5>Demo</h5>
+			<span class="youtube-link" youtubeid="TSWrQUD5Qtw">Open Video 1 - (dark theme - autoplay enabled)</span><br />
+			<a href="#" class="youtube-link-dark" youtubeid="-nvUuHKkLgk">Open Video 2 - (light theme - autoplay disabled)</a>
+
+		
+
+		</div>
+
+		<!-- Jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+		<!-- Github button for demo page -->
+	
+
+		<!-- GRT Youtube Popup -->
+		<script src="grt-youtube-popup.js"></script>
+
+		<!-- Initialize GRT Youtube Popup plugin -->
+		<script>
+			// Demo video 1
+			$(".youtube-link").grtyoutube({
+				autoPlay:true,
+				theme: "dark"
+			});
+
+			// Demo video 2
+			$(".youtube-link-dark").grtyoutube({
+				autoPlay:false,
+				theme: "light"
+			});
+		</script>
+
+	</body>
+</html>

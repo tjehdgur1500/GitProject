@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'nanum-square-eb';
+    src: url('NanumSquareEB.eot');
+    src: url('NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+         url('NanumSquareEB.woff') format('woff'),
+         url('NanumSquareEB.ttf') format('truetype'),
+         url('NanumSquareEB.svg#nanumsquareExBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

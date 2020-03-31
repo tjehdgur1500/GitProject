@@ -1,0 +1,624 @@
+#b_box05{border:0px solid green;
+width:100%;
+height:auto;
+overflow:hidden;
+margin-top:151px;
+}
+#b_box05 .inner{
+border:0px solid red;
+width:75%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:845px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid yellow;
+width:100%;
+height:560px;
+margin-top:120px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 20px 15px -1px rgba(0,0,0,0.55);
+}
+#b_box05 .inner .in_bg .loca_sch{
+border:0px solid green;
+width:34%;   
+float:left;
+padding-top:103px;
+}
+#b_box05 .inner .in_bg .loca_sch dt:nth-child(1){
+font-size:2.2vw;
+font-family:'nanum-square-b';
+color:#fff;
+padding-left:40px;
+line-height:1.5em;
+}
+#b_box05 .inner .in_bg .loca_sch dt span{
+color:#ffed27;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2){
+width:232px;
+border:3px solid #fff;
+margin-top:103px;
+margin-left:40px;
+padding:12px 0 12px;
+display:block;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2) a{
+font-size:1vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+display:block;
+text-align:center;
+}
+#b_box05 .inner .in_bg  .loca_sch2{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.12vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch3{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.12vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;  
+}
+#b_box05 .inner .in_bg  .loca_sch4{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.12vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch5{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.12vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch6{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.12vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+}
+#b_box05 .inner #S_homeup{
+position:absolute;
+border:0px solid red;
+right:0%;
+bottom:0%;
+}
+/*---------------------------------반응형 시작---------------------*/
+@media all and (min-width:1441px) and (max-width:1660px){
+#b_box05 .inner{
+border:0px solid red;
+width:80%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:845px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid violet;
+width:100%;
+height:500px;
+margin-top:120px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 20px 15px -1px rgba(0,0,0,0.55);
+}
+}
+@media all and (min-width:1280px) and (max-width:1440px){
+#b_box05 .inner{
+border:0px solid red;
+width:95%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:845px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid gray;
+width:100%;
+height:500px;
+margin-top:120px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 20px 15px -1px rgba(0,0,0,0.55);
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2){
+width:232px;
+border:3px solid #fff;
+margin-top:103px;
+margin-left:40px;
+padding:12px 0 12px;
+display:block;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2) a{
+font-size:1.2vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+display:block;
+text-align:center;
+}
+#b_box05 .inner .in_bg  .loca_sch2{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch3{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;  
+}
+#b_box05 .inner .in_bg  .loca_sch4{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch5{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+margin-right:36px;
+}
+#b_box05 .inner .in_bg  .loca_sch6{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:103px;
+}
+}
+
+@media all and (min-width:600px) and (max-width:1279px) and (orientation:portrait){
+#b_box05 .inner{
+border:0px solid red;
+width:95%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:550px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid orange;
+width:100%;
+height:338px;
+margin-top:120px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.55);
+}
+#b_box05 .inner .in_bg .loca_sch{
+border:0px solid green;
+width:30%;   
+float:left;
+padding-top:60px;
+margin-right:3%;
+}
+#b_box05 .inner .in_bg .loca_sch dt:nth-child(1){
+font-size:2.5vw;
+font-family:'nanum-square-b';
+color:#fff;
+padding-left:2vw;
+line-height:1.5em;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2){
+width:151px;
+border:3px solid #fff;
+margin-top:60px;
+margin-left:2vw;
+padding:12px 0 12px;
+display:block;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2) a{
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+display:block;
+text-align:center;
+}
+#b_box05 .inner .in_bg  .loca_sch2{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em; 
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch3{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch4{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch5{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch6{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+}
+}
+@media all and (min-width:600px) and (max-width:1279px) and (orientation:landscape){
+#b_box05 .inner{
+border:0px solid red;
+width:95%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:550px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid green;
+width:100%;
+height:350px;
+margin-top:100px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 20px 15px -1px rgba(0,0,0,0.55);
+}
+#b_box05 .inner .in_bg .loca_sch{
+border:0px solid green;
+width:30%;   
+float:left;
+padding-top:60px;
+margin-right:3%;
+}
+#b_box05 .inner .in_bg .loca_sch dt:nth-child(1){
+font-size:2.5vw;
+font-family:'nanum-square-b';
+color:#fff;
+padding-left:2vw;
+line-height:1.5em;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2){
+width:151px;
+border:3px solid #fff;
+margin-top:60px;
+margin-left:2vw;
+padding:12px 0 12px;
+display:block;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2) a{
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+display:block;
+text-align:center;
+}
+#b_box05 .inner .in_bg  .loca_sch2{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em; 
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch3{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch4{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch5{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch6{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:block;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+}
+}
+@media all and (max-width:599px){
+#b_box05 .inner{
+border:0px solid red;
+width:95%;
+height:100%;
+margin:0 auto;
+overflow:hidden;
+position:relative;
+}
+#b_box05 .loca_bg{
+width:100%;
+height:405px;
+background:url(../../images/brandstory/location_bg.png) no-repeat center top;
+background-size:cover;
+border:0px solid red;
+}
+#b_box05 .inner .in_bg{
+border:0px solid black;
+width:100%;
+height:294px;
+margin-top:40px;
+-webkit-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 21px 15px -1px rgba(0,0,0,0.55);
+box-shadow: 0px 20px 15px -1px rgba(0,0,0,0.55);
+}
+#b_box05 .inner .in_bg .loca_sch{
+border:0px solid green;
+width:100%;
+height:100%;
+float:none;
+padding-top:29px;
+margin-right:0%;
+position:relative;
+}
+#b_box05 .inner .in_bg .loca_sch dt:nth-child(1){
+font-size:5vw;
+font-family:'nanum-square-b';
+color:#fff;
+padding-left:2vw;
+padding-bottom:60px;
+line-height:1.5em;
+text-align:center;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2){
+width:170px;
+border:3px solid #fff;
+padding:12px 0 12px;
+display:block;
+margin:0 auto;
+}
+#b_box05 .inner .in_bg .loca_sch dd:nth-child(2) a{
+font-size:2.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+display:block;
+text-align:center;
+}
+#b_box05 .inner .in_bg  .loca_sch2{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:none;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em; 
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch3{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:none;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch4{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:none;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch5{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:none;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+margin-right:2%;
+}
+#b_box05 .inner .in_bg  .loca_sch6{
+border:0px solid pink;
+width:auto;
+height:auto;
+float:left;
+display:none;
+font-size:1.5vw;
+font-family: 'notokr-regular'; 
+color:#fff;
+line-height:1.8em;
+margin-top:65px;
+}
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SodaStream:Location</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<link rel="shortcut icon" href="./images/icon/favicon.png">
+<!--ScrollFade-->
+<link rel="stylesheet" href="./js/Scroll/scrollanim.min.css">
+<!--Jquery 3.2.1 in-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--[if IE]-->
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js">
+    </script>
+</head>
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(function () {
+		$('#S_homeup').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 1500);
+			return false;
+		});
+		});
+	});
+</script>
+<main>
+<header><!--헤더-->
+    <div class="outer"><!--outer--(1820px)-->
+    <div class="inner"><!--inner(1400px)-->
+     <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="overlay-content">
+   <div class="icon">
+   <dl class="bag">
+   <dt>담기</dt>
+   <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/bag.png" /></a>
+   </dl>
+   <dl class="write">
+   <dt>회원가입</dt>
+   <a href="./Write1.html"><img src="./images/common/write.png" /></a>
+    </dl>
+    <dl class="login">
+  <dt>로그인</dt>
+   <a href="./Login.html"><img src="./images/common/login.png" /></a>
+   </dl>
+   </div>
+   <div class="nav">
+    <a href="./BrandStory.html">Brand Story</a>
+    <a href="./Shop.html">Soda Shop</a>
+    <a href="./Event.html">Soda Event</a>
+    <a href="./Community.html">Community</a>
+    <a href="./Maps.html">Location</a>
+    <a href="./Contact.html">Contact Us</a>
+    <a href="./Login.html">주문/배송확인</a>
+    </div>
+  </div>
+</div>
+    <h1 class="pc">
+    <a href="./index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+    </h1>
+    <h1 class="t">
+    <a href="./index.html"><img src="./images/common/logo_t.png" alt="로고" /></a>
+    </h1>
+    <h1 class="m">
+    <a href="./index.html"><img src="./images/common/logo_m.png" alt="로고" /></a>
+    </h1>
+    <div class="member">
+    <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/member.png" alt="멤버" /></a>
+    </div>
+        <div class="soda"><strong>소다스트림 회원혜택</strong></div>
+        <a class="qnb" onclick="openNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+</script>         
+    </div><!--//inner-->
+    </div><!--//outer-->
+</header><!--//헤더 종료-->
+<section id="m_box1">
+   <div class="inner"><!--inner-->
+    <h4>편리하고 심플하게</h4>
+    <h3>소다 스토어</h3>
+    <div class="search">
+    <button><a href="#"><img src="./images/map/shop.png"/></a></button>
+     <button><a href="#"><img src="./images/map/host.png"/></a></button>
+    </div>
+    <form class="maps">
+       <h2>매장 방문 전에 구매제품의 <span>재고 보유 및 판매</span> 여부를 반드시 확인해주세요 </h2>
+        <input type="text" value="ex) 용산" class="sc_box">
+        <button class="go"><a href="#"><img src="./images/map/go.png"/></a></button>
+    </form>
+    </div><!--//inner-->
+</section>
+<section id="m_box2">
+<div class="inner">
+    <div class="map_box">
+        <dl class="map_box1-1">
+        <dt>전자랜드 용산본점</dt>
+        <dd><img src="./images/map/subway.png" /></dd>
+        <dd>매장주소<br><span>서울 용산구 한강로3가 16-9</span></dd>
+        <dd>전화번호<br><span>02-707-4712</span></dd>
+        <dd>서비스<br><span>소다스트림</span></dd>
+        <dd><img src="./images/map/img1.png"/></dd>
+        </dl>
+        <div class="map_box1-2">
+        <dl class="full">
+        <dd><a href="javascript:void(0)"><img src="./images/map/full.png"/></a></dd>
+        <dt>전체 매장보기</dt>
+        </dl>
+        </div>
+    </div>
+</div>
+</section>
+<footer>
+   <div class="inner"><!--inner(1400px)-->
+    <h4><a href="./index.html"><img src="./images/common/logoF.png" alt="하단로고" /></a></h4>
+    <ul>
+        <li><a href="./BrandStory.html">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">사업자정보확인</a></li>
+    </ul>
+    <address>경기도 성남시 분당구 판교역로 230 삼환하이펙스 B동 507-1호 </address>
+    <p>Copyright(c) SMILEMORNING co., Ltd. All rights Reserved</p>
+    </div><!--//inner-->
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,684 @@
+@font-face {
+    font-family: "DungGeunMo";
+    src: url("../font/DungGeunMo\ WebFont/DungGeunMo.eot");
+    src: url("../font/DungGeunMo\ WebFont/DungGeunMo.eot?#iefix") format(‘embedded-opentype’),
+        url("../font/DungGeunMo\ WebFont/DungGeunMo.woff") format(‘woff’),
+        url("../font/DungGeunMo\ WebFont/DungGeunMo.woff2") format(‘woff2’);
+}
+
+/* font-family: "Noto Sans KR", sans-serif; */
+main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #181b21;
+}
+
+.packman {
+    position: fixed;
+    right: 370px;
+    bottom: 126px;
+    z-index: 1000;
+    transition: all 1s;
+}
+
+.packman.active {
+    bottom: -100%;
+}
+
+#gnb {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    transition: all 0.4s;
+}
+
+#gnb.active {
+    bottom: -102px;
+}
+
+#gnb>ul {
+    width: 1200px;
+    min-width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    background: #1d222c;
+    border: 2px solid #181b21;
+}
+
+#gnb>ul>li {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+    position: relative;
+}
+
+
+#gnb>ul>li>a {
+    width: 80px;
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #181b21;
+    background: #354155;
+    margin: 10px 0;
+    transition: all .4s;
+}
+
+.page_Text {
+    font-size: 1.4rem;
+    font-family: "DungGeunMo", sans-serif;
+    color: #fff;
+    display: block;
+}
+
+#gnb>ul>li>a:hover {
+    border: 2px solid #f3e636;
+}
+
+#gnb>ul>li>a.liner {
+    border: 2px solid #f3e636;
+}
+
+#gnb>ul>li>a>img {
+    padding: 19px 0;
+}
+
+#gnb .btn_close {
+    width: 1200px;
+    min-width: 1200px;
+    height: auto;
+    line-height: 2;
+    background: #354155;
+    border: 2px solid #181b21;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.btn_close>p>img {
+    transition: all 0.4s;
+    transform: rotate(0deg);
+}
+
+.btn_close>p>img.active {
+    transform: rotate(180deg);
+}
+
+#main_section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_main.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_section .main_txt_wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: "DungGeunMo", sans-serif;
+    color: #fff;
+}
+
+.main_txt_wrapper>h1 {
+    font-size: 6.25rem;
+}
+
+.main_txt_wrapper>p {
+    font-size: 1.75rem;
+    line-height: 1.8;
+    padding-top: 50px;
+}
+
+.main_txt_wrapper #play_txt {
+    font-size: 2.3rem;
+    line-height: 6;
+    visibility: hidden;
+}
+
+#play_txt.play {
+    visibility: visible;
+}
+
+#mobile_txt {
+    display: none;
+}
+
+#mobile_txt.play {
+    display: none;
+}
+
+#profile_section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_profile.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+#profile_section .profile_wrapper {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10.5em 0;
+}
+
+.profile_wrapper .left_profile {
+    width: 29%;
+    height: 596px;
+    background: url(../img/item_profile.png) no-repeat 50% 50%;
+    position: relative;
+    float: left;
+}
+
+.left_profile .img_profile {
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    border: 3px solid #181b21;
+    background: url(../img/bg_my.jpg) no-repeat 50% 40%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left_profile .left_text {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    color: #fff;
+}
+
+.left_text>dt {
+    font-size: 1.625rem;
+    font-family: "DungGeunMo", sans-serif;
+}
+
+.left_text>dd {
+    font-size: 1rem;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.5;
+}
+
+.profile_wrapper .right_profile {
+    width: 61%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-left: 10%;
+    background: rgba(13, 25, 45, 0.6);
+    padding: 1.6rem 2.5rem;
+    color: #fff;
+    font-family: "DungGeunMo", sans-serif;
+}
+
+.right_profile>h2 {
+    font-size: 2.375rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.right_profile .item_list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.item_list>li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0.6rem 0;
+}
+
+.item_list>li>img {
+    float: left;
+    padding-right: 1rem;
+}
+
+.item_list>li>p {
+    font-size: 1.25rem;
+    padding: 0.3rem 0rem;
+    width: 18%;
+    float: left;
+}
+
+.item_list>li>p:last-child {
+    width: 76%;
+}
+
+.item_list>li:last-child {
+    border-bottom: 1px solid #fff;
+}
+
+.right_profile .content_inner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.list_title {
+    float: left;
+    width: 20%;
+}
+
+.list_content {
+    float: left;
+    width: 70%;
+    margin-left: 4%;
+}
+
+.list_title>dt {
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding-top: 18px;
+}
+
+.list_content>dt {
+    font-weight: 600;
+}
+
+.list_content>dt,
+dd {
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 0.875rem;
+    padding-top: 18px;
+}
+
+.list_content>dd {
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.list_title:last-child {
+    width: 100%;
+}
+
+.list_title:last-child>dt {
+    padding-top: 0;
+    line-height: 3.8;
+}
+
+#skill_section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_skill.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#skill_section .skill_wrapper {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10.5em 0;
+    position: relative;
+}
+
+.skill_wrapper .left_item_window {
+    width: 44%;
+    height: auto;
+    overflow: hidden;
+    border: 3px solid #181b21;
+    background: #384760;
+    position: relative;
+    padding: 30px 7px;
+    float: left;
+}
+
+.skill_wrapper .tab_nav {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 135px;
+    left: 20px;
+}
+
+.tab_nav>li {
+    float: left;
+    width: 100px;
+    line-height: 1.8;
+    background: #6b727f;
+    border: 3px solid #181b21;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 5px;
+    font-size: 1.25rem;
+    font-family: "DungGeunMo", sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.left_item_window .icon_list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.icon_list .itembox {
+    width: 24.2%;
+    height: 115px;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid #181b21;
+    border-radius: 10px;
+    background: #6b727f;
+    float: left;
+    padding: 26px 0;
+    margin-left: 1%;
+    transition: all 0.2s;
+}
+
+.itembox:hover {
+    border: 3px solid #f3e636;
+}
+
+.itembox:nth-child(1),
+.itembox:nth-child(5),
+.itembox:nth-child(9),
+.itembox:nth-child(13) {
+    margin-left: 0;
+}
+
+.itembox:nth-child(5),
+.itembox:nth-child(6),
+.itembox:nth-child(7),
+.itembox:nth-child(8),
+.itembox:nth-child(9),
+.itembox:nth-child(10),
+.itembox:nth-child(11),
+.itembox:nth-child(12),
+.itembox:nth-child(13),
+.itembox:nth-child(14),
+.itembox:nth-child(15),
+.itembox:nth-child(16),
+.itembox:nth-child(17),
+.itembox:nth-child(18),
+.itembox:nth-child(19) {
+    margin-top: 1%;
+}
+
+#icon7 {
+    padding: 7px 0;
+}
+
+.tabs {
+    transition: all 0.3s;
+}
+
+.tabs.on {
+    background: #384760;
+}
+
+.right_item_window {
+    width: 47%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 6%;
+    float: left;
+    border: 3px solid #181c22;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    position: absolute;
+    right: 50px;
+}
+
+.right_item_window.on {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+.right_item_window .item_title {
+    height: auto;
+    overflow: hidden;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-family: "DungGeunMo", sans-serif;
+    background: #6b727f;
+    border-bottom: 3px solid #181c22;
+    position: relative;
+    padding: 0 20px;
+}
+
+.item_title .close_btn {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.right_item_window .item_wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #384760;
+    border-bottom: 3px solid #181c22;
+    text-align: center;
+    padding: 3.75rem 0;
+}
+
+.item_wrapper>img {
+    height: 133px;
+}
+
+.right_item_window .list_wrapper {
+    height: 229px;
+    overflow: hidden;
+    background: #666d79;
+    position: relative;
+    padding: 0 20px;
+}
+
+.list_wrapper>dd {
+    font-size: 1.06rem;
+    padding: 10px 0;
+    line-height: 2;
+}
+
+.list_wrapper .status_bar {
+    font-size: 1rem;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+#portfolio_section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_portfolio.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio_section .portfolio_wrapper {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10.5em 0;
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.swiper-slide .content_inner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.swiper-slide .left_con {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.left_con>img {
+    width: 100%;
+}
+
+
+.swiper-slide .right_con {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    padding: 16.2rem 20px;
+    color: #fff;
+    background: rgba(6, 17, 38, 0.78);
+    font-family: "DungGeunMo", sans-serif;
+    position: relative;
+}
+
+.right_con .img_ghost {
+    position: absolute;
+    right: 200px;
+    top: -24px;
+    transform: rotate(180deg);
+}
+
+.right_con .right_title {
+    width: 100%;
+    font-size: 4rem;
+    line-height: 2;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+
+.right_con .right_content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: "Noto Sans KR", sans-serif;
+    padding: 5rem 0;
+}
+
+.right_con .show_link {
+    width: 160px;
+    line-height: 2.3;
+    font-size: 1.1rem;
+    font-family: "DungGeunMo", sans-serif;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.4s;
+}
+
+.show_link:hover {
+    background: #fff;
+    color: #181c22;
+}
+
+.swiper_nav_wrapper {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact_section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_contact.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact_section .contact_wrapper {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "DungGeunMo", sans-serif;
+    color: #fff;
+}
+
+.contact_wrapper .contact_side {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.contact_side>h2 {
+    font-size: 3.2rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.contact_side>h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #fff;
+}
+
+.contact_side .clock_title {
+    font-size: 2.2rem;
+    line-height: 2;
+}
+
+.contact_side .contact_list {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}

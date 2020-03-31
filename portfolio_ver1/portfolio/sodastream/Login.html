@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SodaStream:Login </title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<link rel="shortcut icon" href="./images/icon/favicon.png">
+<!-- GRT Youtube Plugin CSS -->
+<link rel="stylesheet" href="./js/Popup/grt-youtube-popup.css">
+<!--hover-->
+    <script type="text/javascript" src="./js/hover/snap.svg-min.js"></script>
+<!-- Link Slide-->
+	<link rel="stylesheet" type="text/css" href="./css/Main/normalize.css" />
+<!--ScrollFade-->
+<link rel="stylesheet" href="./js/Scroll/scrollanim.min.css">
+<!--MoviePopup-->
+<link rel="stylesheet" href="./js/Popup/grt-youtube-popup.css">
+<!--Jquery 3.2.1 in-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--[if IE]-->
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+</head>
+<body>
+
+<script>
+$(document).ready(function(){
+	$(function () {
+		$('#homeup').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 1500);
+			return false;
+		});
+		});
+	});
+</script>
+<main>
+<header><!--헤더-->
+    <div class="outer"><!--outer--(1820px)-->
+    <div class="inner"><!--inner(1400px)-->
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="overlay-content">
+   <div class="icon">
+   <dl class="bag">
+   <dt>담기</dt>
+   <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/bag.png" /></a>
+   </dl>
+   <dl class="write">
+   <dt>회원가입</dt>
+   <a href="./Write1.html"><img src="./images/common/write.png" /></a>
+    </dl>
+    <dl class="login">
+  <dt>로그인</dt>
+   <a href="./Login.html"><img src="./images/common/login.png" /></a>
+   </dl>
+   </div>
+   <div class="nav">
+    <a href="./BrandStory.html">Brand Story</a>
+    <a href="./Shop.html">Soda Shop</a>
+    <a href="./Event.html">Soda Event</a>
+    <a href="./Community.html">Community</a>
+    <a href="./Maps.html">Location</a>
+    <a href="./Contact.html">Contact Us</a>
+    <a href="./Login.html">주문/배송확인</a>
+    </div>
+  </div>
+</div>
+    <h1 class="pc">
+    <a href="./index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+    </h1>
+    <h1 class="t">
+    <a href="./index.html"><img src="./images/common/logo_t.png" alt="로고" /></a>
+    </h1>
+    <h1 class="m">
+    <a href="./index.html"><img src="./images/common/logo_m.png" alt="로고" /></a>
+    </h1>
+    <div class="member">
+    <a onclick="alert('로그인후 사용 가능합니다');"><img src="./images/common/member.png" alt="멤버" /></a>
+    </div>
+        <div class="soda"><strong>소다스트림 회원혜택</strong></div>
+    <a class="qnb" onclick="openNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+</script>       
+    </div><!--//inner-->
+    </div><!--//outer-->
+</header><!--//헤더 종료-->
+<section id="l_visual">
+<div class="inner"><!--inner-->
+   <div class="ball">
+       <dl class="balls">
+           <dd><a href="./Write1.html"><img src="./images/Login/write.png"/></a></dd>
+           <dt>회원가입</dt>
+           <dd><a href="./Login.html"><img src="./images/Login/cart.png"/></a></dd>
+           <dt>주문/배송확인</dt>
+           <dd><a href="./Maps.html"><img src="./images/Login/loc.png"/></a></dd>
+           <dt>매장위치</dt>
+       </dl>
+   </div>
+    <form>
+       <h3>로그인</h3>
+        <input type="text" value="아이디를 입력해주세요" class="plsId"><br>
+        <input type="password" value="비밀번호를 입력해주세요" class="plsPs">
+        <input type="checkbox" id="cb">
+        <label for="cb"></label>
+        <h5>아이디 기억하기</h5>
+        <h5><a href="javascript:void(0)">아이디/비밀번호 찾기</a></h5>
+       <input type="button" value="로그인" onclick="alert('아이디를 입력해주세요.');">
+       <button class="naver"><a href="#"><img src="./images/Login/naver.png"/></a></button>
+        <button class="naver"><a href="#"><img src="./images/Login/facebook.png"/></a></button>
+        <button class="naver"><a href="#"><img src="./images/Login/kakao.png"/></a></button>
+    </form>
+</div><!--//inner-->
+</section>
+<footer>
+   <div class="inner"><!--inner(1400px)-->
+    <h4><a href="./index.html"><img src="./images/common/logoF.png" alt="하단로고" /></a></h4>
+    <ul>
+        <li><a href="./BrandStory.html">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">사업자정보확인</a></li>
+    </ul>
+    <address>경기도 성남시 분당구 판교역로 230 삼환하이펙스 B동 507-1호 </address>
+    <p>Copyright(c) SMILEMORNING co., Ltd. All rights Reserved</p>
+    </div><!--//inner-->
+</footer>
+</main>
+</body>
+</html>

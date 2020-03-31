@@ -1,0 +1,27 @@
+/*reset*/
+*{margin:0;padding:0;box-sizing:border-box;}
+ol,ul{list-style:none;}
+html,body,main{height:100%;}
+a{
+font-family:"맑은 고딕",돋움,Dotum,나눔고딕,sans-serif;
+font-size:0.75em;color:#666;text-decoration:none;}
+
+body{font-family:"맑은 고딕",돋움,Dotum,나눔고딕,sans-serif;
+font-size:100%;color:#333;line-height:1.2;
+/*
+-ms-overflow-style: none;
+-webkit-overflow-style: none;
+*/
+}
+body::-webkit-scrollbar{width: 16px;}
+::-webkit-scrollbar-track {background-color:#f1f1f1;}
+::-webkit-scrollbar-thumb {background-color:#12b4f0;border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#12b4f0;
+}
+/*body::-webkit-scrollbar{display:none;}*/
+video, img{max-width:100%; vertical-align:top;}
+input,select{vertical-align:top;}
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
